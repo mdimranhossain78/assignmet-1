@@ -10,7 +10,8 @@
 }
   
 /* common code stard */
-.nav-container{
+.nav-container,
+.banner-container{
     
     width: 85%;
     max-width: 1360px;
@@ -24,16 +25,17 @@
     padding: 12px 16px;
     border: none;
     border-radius: 5px;
+    cursor:pointer;
 
  }
 
 /* end */
-
+/* nav section */
 .nav-container{
    display: flex;
    justify-content: space-between;
    align-items: center;
-   padding: 16px 0;
+   
 }
 .menu ul{
     display: flex;
@@ -41,3 +43,62 @@
     gap: 32px;
     font-weight: 500;
 }
+/* benner section */
+#banner{
+    background-image: url(./assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 70px 0 140px;
+}
+.banner-container{
+   
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.banner-container #h5{
+   background-color: #fff;
+   text-align: center;
+   width: 230px;
+   margin: 0 auto 16px;
+   padding: 8px 12px;
+   border-radius: 20px;
+   color: #469165;
+   display: flex;
+   gap: 8px;
+
+}
+.banner-container h1{
+   
+    font-size: 72px;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.banner-container h1 span{
+    color:#30B868;
+}
+.banner-container p{
+    font-size: 18px;
+    color: #fff;
+    margin-bottom:24px ;
+}
+#btn{
+   background-color: transparent;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 12px 16px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin-left: 16px;
+    cursor: pointer;
+}
+.banner-container button .fa-arrow-right{
+    margin-left: 10px;
+}
+.banner-container button .fa-play{
+    margin-right: 10px;
+}
+ 
