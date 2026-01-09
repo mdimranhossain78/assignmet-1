@@ -12,7 +12,8 @@
 /* common code stard */
 .nav-container,
 .banner-containe,
-.notes-container{
+.notes-container,
+.brain-container{
     
     width: 85%;
     max-width: 1360px;
@@ -29,6 +30,12 @@
     cursor: pointer;
 
  }
+ .h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
 
 /* end */
 /* nav section */
@@ -110,12 +117,7 @@
    
     text-align: center;
 }
-.hedding h1{
-    font-size: 48px;
-    font-weight: bold;
-    color: #001931;
-    margin-bottom: 16px;
-}
+
 .notes-container .hedding p{
     color: #627382;
 }
@@ -152,8 +154,39 @@
 }
 .notes-card p{
     color: #627382;
+    line-height: 20px;
 }
-    
+/* brain section */
+#brain-Section{
+    padding: 120px 0;
+}
+.brain-container{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+
+}
+.brain-container .brain-content .brain-title p{
+    color: #627382;
+    line-height: 20px;
+}
+.brain-container .brain-content #c-title{
+    color: #469165;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.brain-title{
+    margin-bottom: 40px;
+}
+
+.content .chack-mark{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 16px;
+}
+
 
 
 
