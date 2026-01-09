@@ -13,7 +13,8 @@
 .nav-container,
 .banner-containe,
 .notes-container,
-.brain-container{
+.brain-container,
+.early-container{
     
     width: 85%;
     max-width: 1360px;
@@ -28,7 +29,13 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: 0.5s;
 
+ }
+ .btn:hover{
+     background-color: transparent;
+     color: #469165;
+     border: 1px solid #469165;;
  }
  .h1{
     font-size: 48px;
@@ -102,6 +109,12 @@
     border-radius: 5px;
     margin-left: 16px;
     cursor: pointer;
+    transition: 0.5s;
+}
+#btn:hover{
+    background-color: #469165;
+    border:none;
+
 }
 .banner-container button .fa-arrow-right{
     margin-left: 10px;
@@ -186,8 +199,27 @@
     gap: 6px;
     margin-bottom: 16px;
 }
+/* early access */
 
+#early-access{
+    padding-bottom: 120px;
+}
+.early-container{
+    background: #F7F6F2;
+    text-align: center;
+    padding: 80px 40px;
+    border-radius: 12px;
+}
+.early-container p{
+    color: #627382;
+    line-height: 20px;
 
-
-
+}
+.early-title{
+    margin-bottom: 24px;
+}
+.early-container button{
+    margin-bottom: 16px;
+    
+}
 
